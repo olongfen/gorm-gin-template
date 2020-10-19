@@ -1,0 +1,15 @@
+db:
+  host: 0.0.0.0
+  port: "65433"
+  driver: postgres
+  databasename: business
+  username: business
+  password: business
+  maxidleconn: 200
+  maxopenconn: 2000
+filepath:
+  logdir: ./log_project
+  logpatent: _%Y-%m-%d.log_project
+serve:
+  serveraddr: 0.0.0.0
+  serverport: "8088"

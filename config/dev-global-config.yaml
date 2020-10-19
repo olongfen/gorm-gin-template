@@ -1,0 +1,15 @@
+db:
+  databasename: ccb-review-system
+  driver: postgres
+  host: 192.168.3.249
+  maxidleconn: 200
+  maxopenconn: 2000
+  password: 123456
+  port: "5432"
+  username: postgres
+filepath:
+  logdir: ./log_project
+  logpatent: _%Y-%m-%d.log_project
+serve:
+  serveraddr: 0.0.0.0
+  serverport: "8003"
